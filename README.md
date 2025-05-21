@@ -4,6 +4,34 @@
 
 A React Native application for testing HTTP connections and managing power states with development mode features.
 
+## Screenshots
+
+### Welcome Screen
+
+![Welcome Screen](./assets/welcome.png)
+
+- Simple welcome screen
+- Continue button to access main features
+
+### HTTP Service Tab
+
+![HTTP Service](./assets/http-service.png)
+
+- IP address and port input
+- HTTP method selection (GET, POST, PUT, DELETE)
+- Test connection button
+- Send request button
+- Development mode toggle
+
+### Power Control Tab
+
+![Power Control](./assets/power-control.png)
+
+- ON/OFF state buttons
+- Current state display
+- Test connection integration
+- Development mode support
+
 ## Table of Contents
 
 - Features
@@ -14,12 +42,30 @@ A React Native application for testing HTTP connections and managing power state
 
 ## Features
 
-- HTTP request testing (GET, POST, PUT, DELETE)
-- Power state management (ON/OFF)
-- Development mode with enhanced logging
-- Connection status monitoring
-- Customizable port configuration
-- Tab-based interface
+### HTTP Service
+
+- IP address validation
+- Custom port configuration (default: 80)
+- Multiple HTTP methods support
+- Connection testing
+- Development mode logging
+- Response status monitoring
+
+### Power Control
+
+- Visual state indicators
+- ON/OFF toggle buttons
+- Status feedback
+- Automatic connection verification
+- Development mode logging
+
+### Development Tools
+
+- Enhanced error messages
+- Network request logging
+- Connection status tracking
+- Visual feedback for all actions
+- Debug information display
 
 ## Installation
 
